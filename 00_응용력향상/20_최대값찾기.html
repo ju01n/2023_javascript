@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>응용력향상</title>
+  </head>
+  <body>
+    <h1>20_최대값찾기</h1>
+
+    <pre>
+      문제) prompt() 함수를 이용하여 10개의 수를 입력받아, 그 중에서 가장 큰 수를 출력하시오.
+    </pre>
+
+    <script>
+      const inNum = [];
+      let max = 0;
+
+      for(i = 0; i < 10; i ++){
+        inNum[i] = parseInt(prompt(('숫자를 입력하세요')));
+      }
+
+      for(i = 0; i < 10; i++){
+        if(inNum[i] > max){
+          max = inNum[i]
+        }
+      }
+
+      document.write(max);
+
+      </script>
+  </body>
+</html>
