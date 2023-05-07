@@ -19,8 +19,8 @@
         <dd class="nation greeting">한국 - 식사하셧습니까? 하모~!</dd>
         <dd class="nation greeting">중국 - 츠팔러마? 츠팔러</dd>
         <dd class="nation greeting">
-            <strong>부시족</strong> 리얼싸운드 - 
-            <strong>일렌트로캉막따따라바오리도? 따따라!</strong>      
+            <strong>부시족</strong> 리얼싸운드 -
+            <strong>일렌트로캉막따따라바오리도? 따따라!</strong>
         </dd>
       </dl>
       <hr/>
@@ -33,25 +33,28 @@
           <li class="item"><em>웹디자인기능사</em></li>
       </ul>
     </article>
-</section>  
+</section>
 
 <script>
-  /* 
+  /*
     브라우저 페이지 렌더링 순서
-    
+
     1. DOMTree 구성(뼈대)
     2. 각각의 DOM에 내용을 붙임
     3. 이벤트 구문을 작성하려면 반드시 DOM을 선택해야 한다.
   */
 
-  // 1. 하나의 DOM을 콕 찝어 선택 할 때 
-  const tit = document.querySelector('#tit');
+  // 1. 하나의 DOM을 콕 찝어 선택 할 때
+  const $tit = document.querySelector('#tit');
   console.log('tit =' , tit);
 
 
-  // 2. 여러개의 DOM을 한꺼번에 선택 할 때 
-  const item = document.querySelectorAll('.item')
+  // 2. 여러개의 DOM을 한꺼번에 선택 할 때
+  const $item = document.querySelectorAll('.item')
   console.log('item =', item);
+
+  // 3. id를 이용해서 선택하는 전통적인 방법
+  const $publisher = document.getElementById('publisher');
 </script>
 </body>
 </html>
