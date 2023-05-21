@@ -1,10 +1,10 @@
 /*
-  1. 동등연산자 : ==, != 
+  1. 동등연산자 : ==, !=
   2. 일치연산자 : ===, !==
-  3. 비교연산자 : >, >=, <, <= 
+  3. 비교연산자 : >, >=, <, <=
 
-  -> 위 연산자들의 공통점은 연산자결과가 t/f 중 하나라는 것  -> 조건식에 많이 쓰임 
-  
+  -> 위 연산자들의 공통점은 연산자결과가 t/f 중 하나라는 것  -> 조건식에 많이 쓰임
+
 */
 
 const score1 = 100; //number
@@ -23,7 +23,7 @@ const duly = 7;
 const micol = 7;
 
 console.log(duly > micol); //f
-console.log(duly >= micol); //t 
+console.log(duly >= micol); //t
 console.log(duly < micol); //f
 console.log(duly <= micol); //t
 
